@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<title>Form5</title>
+	</head>
+	<body>
+		<form action=" ">
+			<fieldset>
+				<legend>contact details</legend>
+
+				<p>
+					<label>Username:
+						<input type="text" name="username" maxlength="8" required="required" />
+					</label>
+				</p>
+
+				<p>
+					<label for="1">Password:</label>
+					<input id="1"type="password" name="password" maxlength="5" required="required">
+				</p>
+
+				<p>
+					<label for="2">Feedback:</label>
+					<textarea id="2" name="comments">Give your feedback...</textarea>
+				</p> 
+			</fieldset>
+			<br />
+			
+			<fieldset>
+				<legend>Favorite</legend>
+				<p>
+					<label>
+						Please select your favorite actress
+						<br />
+						<input type="radio" name="actress" value="katrina" checked="checked" />Katrina
+						<input type="radio" name="actress" value="karina" />Karina
+						<input type="radio" name="actress" value="Shraddha" />Shraddha
+					</label>
+				</p>
+
+				<p>Please select your favorite actor
+					<br />
+					<input id="3" type="checkbox" name="actor" value="Brad" checked="checked" /> <label for="3">Brad pitt </label>
+					<input id="4" type="checkbox" name="actor" value="leo" checked="checked" /><label for="4">Leonardio Caprio </label>
+					<input id="5" type="checkbox" name="actor" value="hanks" /><label for="5">Tom hanks </label>
+				</p>
+
+				<p>
+					<label>
+						please select your fav. player
+						<br />
+						<br />
+						<select name="fav_player"  size="3" multiple="multiple">
+							<option value="Messy">Lionel Messi</option>
+							<option value="CR7" selected="selected">Ronaldo</option>
+							<option value="kevin">Kevin_oberyaun</option>
+							<option value="neymar">Neymar Jr.</option>
+						</select>
+					</label>
+				</p>
+			</fieldset>
+			<br/>
+
+			<fieldset>
+				<legend>Upload</legend>
+
+				<p>
+					<label for="6">upload pdf:</label>
+					<input id="6" type="file" name="user_pdf" required="required" />
+					<input type="submit" value="upload">
+					<br />
+
+					upload image:
+					<input type="file" name="user_pic" />
+					<input type="submit" value="upload" />
+					<br />
+					<br />
+
+					<input type="submit" value="submit" />
+					
+				</p>
+			</fieldset>
+			<br/>
+
+			<fieldset>
+				<legend>Subscribe</legend>
+
+				<p>Subscribe to our email:
+					<input type="text" name="email" maxlength="4" />
+					<input type="submit" value="Subscribe" />
+				</p>
+
+				<p>Subscribe to our email:
+					<input type="text" name="email" />
+					<input type="image" src="pics/subscribe3.jpg" alt="subscribe" title="SUBSCRIBE" height="20" />	
+				</p>
+
+				<p>Hidden form control:
+					<input type="hidden" name="bookmark" value="lyrics" />
+				</p>
+			</fieldset>
+			<br/>
+
+			<fieldset>
+				<legend>Date,email,url,search</legend>
+
+				<p>
+					Departure Date:
+					<input type="date" name="depart" />
+					<input type="submit" value="Submit" />
+				</p>
+
+				<p>
+					Email:
+					<input type="email" name="email" required="required" />
+					<input type="image" src="pics/subscribe3.jpg" alt="SUBSCRIBE" Title="sUbScribe" height="20" />
+				</p>
+
+				<p>
+					URL:
+					<input type="url" name="website" />
+					<input type="submit" value"submiT" />
+				</p>
+
+				<p>
+					Search:
+					<input type="search" name="search" />
+					<input type="submit" value="search" /">
+				</p>
+			</fieldset>
+
+		</form>
+	</body>
+</html>

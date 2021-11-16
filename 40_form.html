@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<form action=" ">
+
+			<p>Username:
+				<input type="text" name="username" maxlength="8"/>
+			</p>
+
+			<p>Password:
+				<input type="password" name="password" maxlength="5">
+			</p>
+
+			<p>Feedback:
+				<textarea name="comments">Give your feedback...</textarea>
+			</p> 
+
+			<p>Please select your favorite actress
+				<br />
+				<input type="radio" name="actress" value="katrina" checked="checked" />Katrina
+				<input type="radio" name="actress" value="karina" />Karina
+				<input type="radio" name="actress" value="Shraddha" />Shraddha
+			</p>
+
+			<p>Please select your favorite actor
+				<br />
+				<input type="checkbox" name="actor" value="Brad" checked="checked" />Brad pitt
+				<input type="checkbox" name="actor" value="leo" checked="checked" />Leonardio Caprio
+				<input type="checkbox" name="actor" value="hanks" />Tom hanks
+			</p>
+
+			<p>please select your fav. player
+				<br />
+				<br />
+				<select name="fav_player"  size="3" multiple="multiple">
+					<option value="Messy">Lionel Messi</option>
+					<option value="CR7" selected="selected">Ronaldo</option>
+					<option value="kevin">Kevin_oberyaun</option>
+					<option value="neymar">Neymar Jr.</option>
+				</select>
+			</p>
+
+			<p>upload pdf:
+				<input type="file" name="user_pdf" />
+				<input type="submit" value="upload">
+				<br />
+				upload image:
+				<input type="file" name="user_pic" />
+				<input type="submit" value="upload" />
+				<br />
+				<br />
+				<input type="submit" value="submit" />
+			</p>
+
+			<p>Subscribe to our email:
+				<input type="text" name="email" maxlength="4" />
+				<input type="submit" value="Subscribe" />
+			</p>
+
+			<p>Subscribe to our email:
+				<input type="text" name="email" />
+				<input type="image" src="pics/subscribe3.jpg" alt="subscribe" title="SUBSCRIBE" height="20" />	
+			</p>
+
+			<p>Hidden form control:
+				<input type="hidden" name="bookmark" value="lyrics" />
+			</p>
+
+
+		</form>
+	</body>
+</html>
